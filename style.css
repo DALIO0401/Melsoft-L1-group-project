@@ -1,1 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'inter', sans-serif;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+footer{
+    background-color: #333030;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+#landing-page-box{
+   background-image: url("images/Rectangle\ 1.png");
+   background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#site-title{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight:500;
+    padding-left: 3%;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-right: 30px;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.active-nav{
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+}
+
+#welcomeScreen{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#heading-intro-text{
+    margin-left: 5%;
+    width: 40%;
+    margin-bottom: 30px;
+}
+ #heading-image{
+    width: 325px;
+    height: 325px;
+    margin-right: 13%;
+    border-radius: 165px;
+    box-shadow: 0px 0px 40px #6663619e;
+    margin-bottom: 15px;
+}
+
+h1{
+    font-size: 50px;
+    color: #C7C1BC;
+    margin-bottom: 0px;
+}
+
+#heading-description{
+    font-size: 20px;
+    color:#C7C1BC;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.heading-button{
+    background-color: #C7C1BC;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: #333030;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.team-box{
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333030;
+    border-radius: 50px;
+    justify-items: center;
+    margin-top: 40px;
+    
+    
+}
+
+.team-photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: #333030;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.team-member-title{
+    font-size: 18px;
+    color: #555151;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.individual-boxes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    vertical-align: top;
+    margin-bottom: 240px;
+    margin-top: 100px;
+}
+
+.individual-photo{
+    width: 340px;
+    height: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-left: 0px;
+    margin-right: 80px;
+    margin-left: 100px;
+
+}
+.individual-info{
+   width: 50%;
+   
+}
+.skills-hobbies-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.individual-name{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-align:left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.skills-hobbies-title{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+.skills{
+   width: 400px;
+   height: 200px;
+   border-radius: 20px;
+   margin-left: -20px;
+   border-style: solid;
+   border-width: 2px;
+   border-color: rgb(40, 40, 40);
+
+}
+.hobbies{
+    width: 400px;
+   height: 200px;
+   border-radius: 20px;
+   border-style: solid;
+   border-width: 2px;
+   border-color: rgb(40, 40, 40);
+}
+
+ul{
+    list-style-type:disc;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30%;
+}
+
 
