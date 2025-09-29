@@ -13,28 +13,28 @@
 
     <section id="landing-page-box">
         <!--Header-->
-        <header>
+        <header id="header">
             <p id="site-title">The Markup Crew</p>
             <!--Navigation bar-->
             <nav id="nav-bar">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Our Team</a></li>
-                    <li><a href="#">About Us</a></li>
-                </ul>
+                <a class="active-nav" href="#landing-page-box">Home</a>
+                <a href="#our-team">Our Team</a>
+                <a href="#about-us">About Us</a>
             </nav>
         </header>
 
         <!--------------------------------------------------------------------------------------------------------------->
+    
+        <div id="welcomeScreen">
 
         <!--Heading+intro text-->
-        <div id="heading+intro-text">
+        <div id="heading-intro-text">
             <h1>The Markup Crew</h1>
-            <p>We are a team of passionate learners brought together at Melsoft Academy, dedicated to turning ideas
+            <p id="heading-description">We are a team of passionate learners brought together at Melsoft Academy, dedicated to turning ideas
                 into clean, functional, and stylish web pages. With each member bringing unique skills and creativity,
                 we collaborate to build designs that are simple, engaging, and user-friendly.
                 Together, we’re not just writing code — we’re shaping experiences.</p>
-            <button>Get Started!</button>
+            <button class="heading-button">Get Started!</button>
         </div>
 
         <!--------------------------------------------------------------------------------------------------------------->
@@ -43,44 +43,45 @@
         <img id="heading-image" src="images/pexels-luis-gomes-166706-546819.jpg" alt="Photo of laptop with code"
             width="500px" height="340px">
         <!--width and height can be changed, only set them to these dimensions so it doesn't look too much of a mess on the webpage-->
+        </div>
 
     </section>
 
     <!--------------------------------------------------------------------------------------------------------------->
 
-    <h2>Our Team</h2>
+    <h2 id="our-team">Our Team</h2>
 
     <!--team boxes-->
     <section class="team-box">
         <h3>Joy Molomo</h3>
-        <img src="images/Joy Molomo photo.png" alt="photo of Joy Molomo" width="340px" height="500px">
+        <img src="images/Joy Molomo photo.png" alt="photo of Joy Molomo" class="team-photo">
         <!--width and height can be changed, only set them to these dimensions so it doesn't look too much of a mess on the webpage-->
-
+         <p class="team-member-title">-software engineer</p>
         <button>View</button>
     </section>
     <!--------------------------------------------------------------------------------------------------------------->
 
     <section class="team-box">
         <h3>Dale Mellem</h3>
-        <img src="images/IMG_8520.jpeg" alt="photo of Dale Mellem" width="340px" height="500px">
+        <img src="images/IMG_8520.jpeg" alt="photo of Dale Mellem" class="team-photo">
         <!--width and height can be changed, only set them to these dimensions so it doesn't look too much of a mess on the webpage-->
-
+         <p class="team-member-title">-software engineer</p>
         <button>View</button>
     </section>
     <!--------------------------------------------------------------------------------------------------------------->
      
     <section class="team-box">
         <h3>Emmanuel Mkwawami</h3>
-        <img src="images/Emmanuel Mkwakwami photo.jpg" alt="image for group project.jpg" width="340px" height="500px">
-     
+        <img src="images/Emmanuel Mkwakwami photo.jpg" alt="image for group project.jpg" class="team-photo">
+        <p class="team-member-title">-software engineer</p>
         <button>View</button>
      </section>
     <!--------------------------------------------------------------------------------------------------------------->
 
       <section class="team-box">
         <h3>Neo Dladla</h3>
-        <img src="images/rui-silvestre-jCeVRUQslTs-unsplash.jpg" alt="Neo Dladla.jpeg" width="340px" height="500px">
-     
+        <img src="images/rui-silvestre-jCeVRUQslTs-unsplash.jpg" alt="Neo Dladla.jpeg"class="team-photo">
+        <p class="team-member-title">-software engineer</p>
         <button>View</button>
      </section>
  
@@ -90,126 +91,152 @@
 
      <!--individual boxes-->
     <section class="individual-boxes">
-        <img src="images/Joy Molomo photo.png" alt="photo of Joy Molomo" width="340px" height="500px">
+        <img src="images/Joy Molomo photo.png" alt="photo of Joy Molomo" class="individual-photo">
         <!--width and height can be changed, only set them to these dimensions so it doesn't look too much of a mess on the webpage-->
-        <div class="skills">
-            <ul>
-                <li>Communication skills</li>
-                <li>Writing clean html</li>
-                <li>Team collaboration</li>
-            </ul>
+       
+        <div class="individual-info">
+                <p class="individual-name">Joy Molomo</p>  
+                <div class="skills-hobbies-container">  
+
+                        <div class="skills">
+                            <p class="skills-hobbies-title">Skills</p>
+                            <ul>
+                                <li>Communication skills</li>
+                                <li>Writing clean html</li>
+                                <li>Team collaboration</li>
+                            </ul>
+                        </div>
+                        <!--------------------------------------------------------------------------------------------------------------->
+
+                        <div class="hobbies">
+                            <p class="skills-hobbies-title">hobbies</p>
+                            <ul>
+                                <li>Listening to music</li>
+                                <li>Drawing/sketching</li>
+                                <li>Fitness & Gym</li>
+                            </ul>
+                        </div>
+                </div>
+            <!--------------------------------------------------------------------------------------------------------------->
+
+            <p>Hi, I’m Joy, and I’m pursuing a dual path as a future software engineer and businesswoman, with a
+                passion for building scalable tech solutions for the South African market. I’m skilled in HTML, CSS,
+                and modular web development, and I enjoy translating business needs into clean, user-friendly code.
+                Outside of tech, I love traveling to new places and exploring local restaurants for fresh inspiration.</p>
         </div>
-        <!--------------------------------------------------------------------------------------------------------------->
-
-        <div class="hobbies">
-            <ul>
-                <li>Listening to music</li>
-                <li>Drawing/sketching</li>
-                <li>Fitness & Gym</li>
-            </ul>
-        </div>
-        <!--------------------------------------------------------------------------------------------------------------->
-
-        <p>Hi, I’m Joy, and I’m pursuing a dual path as a future software engineer and businesswoman, with a
-            passion for building scalable tech solutions for the South African market. I’m skilled in HTML, CSS,
-            and modular web development, and I enjoy translating business needs into clean, user-friendly code.
-            Outside of tech, I love traveling to new places and exploring local restaurants for fresh inspiration.</p>
-
     </section>
     <!--------------------------------------------------------------------------------------------------------------->
 
     <section class="individual-boxes">
-        <img src="images/IMG_8520.jpeg" alt="photo of Dale Mellem" width="340" height="500">
+        <img src="images/IMG_8520.jpeg" alt="photo of Dale Mellem" class="individual-photo">
         <!--width and height can be changed, only set them to these dimensions so it doesn't look too much of a mess on the webpage-->
         <!--------------------------------------------------------------------------------------------------------------->
+        <div class="individual-info">
+            <p class="individual-name">Dale Mellem</p>
+               <div class="skills-hobbies-container">   
+                        <div class="skills">
+                            <p class="skills-hobbies-title">Skills</p>
+                            <ul>
+                                <li>HTML structuring</li>
+                                <li>Attention to detail</li>
+                                <li>Time management</li>
+                            </ul>
+                        </div>
+                        <!--------------------------------------------------------------------------------------------------------------->
 
-        <div class="skills">
-            <ul>
-                <li>HTML structuring</li>
-                <li>Attention to detail</li>
-                <li>Time management</li>
-            </ul>
-        </div>
-        <!--------------------------------------------------------------------------------------------------------------->
+                        <div class="hobbies">
+                             <p class="skills-hobbies-title">hobbies</p>
+                            <ul>
+                                <li>Playing guitar</li>
+                                <li>Traveling</li>
+                                <li>Hiking outdoors</li>
+                            </ul>
+                        </div>    
+               </div>        
+              
 
-        <div class="hobbies">
-            <ul>
-                <li>Playing guitar</li>
-                <li>Traveling</li>
-                <li>Hiking outdoors</li>
-            </ul>
-        </div>
-        <!--------------------------------------------------------------------------------------------------------------->
+         <!--------------------------------------------------------------------------------------------------------------->
 
-        <p>Hi, I’m Dale, a detail-oriented coder who enjoys working with HTML and CSS to create clean and
+         <p>Hi, I’m Dale, a detail-oriented coder who enjoys working with HTML and CSS to create clean and
             structured web pages. I’m passionate about learning new techniques and collaborating with others to
             build better projects. Outside of coding, you’ll often find me playing guitar or exploring nature.</p>
-
+        </div>
     </section>
     <!--------------------------------------------------------------------------------------------------------------->
 
-    <section class="individual-boxes">
-        <img src="images/Emmanuel Mkwakwami photo.jpg" alt="image of Emmanuel Mkwawami" width="340" height="500">
-        <!--kept width and height consistent-->
-    
-        <!------------------------------------------------------------------------------>
+ <section class="individual-boxes">
+        <img src="images/Emmanuel Mkwakwami photo.jpg" alt="photo of Emmanuel Mkwakwami" class="individual-photo">
+        <!--width and height can be changed, only set them to these dimensions so it doesn't look too much of a mess on the webpage-->
+        <!--------------------------------------------------------------------------------------------------------------->
+        <div class="individual-info">
+            <p class="individual-name">Emmanuel Mkwakwami</p>
+               <div class="skills-hobbies-container">   
+                        <div class="skills">
+                            <p class="skills-hobbies-title">Skills</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>Css</li>
+                                <li>No-code development</li>
+                            </ul>
+                        </div>
+                        <!--------------------------------------------------------------------------------------------------------------->
 
-        <div class="Skills">
-              <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>No-code development</li>
-             </ul>
-        <div>
-       
-        <!----------------------------------------------------------------------------->
+                        <div class="hobbies">
+                             <p class="skills-hobbies-title">hobbies</p>
+                            <ul>
+                                <li>Drawing/Painting</li>
+                                <li>Animation</li>
+                                <li>Playing guitar</li>
+                            </ul>
+                        </div>    
+               </div>        
+              
 
-    <div class="hobbies">
-         <ul>
-        <li>Drawing/Painting</li>
-        <li>Animation</li>
-        <li>Guitar</li>
-         </ul>
-    </div>
-<!-------------------------------------------------------------------------------------->
+         <!--------------------------------------------------------------------------------------------------------------->
 
-<p>Hi, I'm Emmanuel who is a creative and tech-savy individual who enjoys drawing, painting, animation, and playing guitar in my free time.My professional skill set includes HTML, CSS, no-code software development, marketing, video editing, and UI/UX design, making him a versatile contributor to digital projects.</p>
-
-</section>
+         <p>Hi, I'm Emmanuel who is a creative and tech-savy individual who enjoys drawing, painting, animation, and playing guitar in my free time.My professional skill set includes HTML, CSS, no-code software development, marketing, video editing, and UI/UX design, making him a versatile contributor to digital projects.</p>
+        </div>
+    </section> 
 <!---------------------------------------------------------------------------------------->
 
-<section class="individual-boxes">
-    <img src="images/rui-silvestre-jCeVRUQslTs-unsplash.jpg" alt="Neo Dladla.jpeg" width="340px" height="500px">
+  <section class="individual-boxes">
+        <img src="images/rui-silvestre-jCeVRUQslTs-unsplash.jpg" alt="photo of Neo Dladla" class="individual-photo">
+        <!--width and height can be changed, only set them to these dimensions so it doesn't look too much of a mess on the webpage-->
+        <!--------------------------------------------------------------------------------------------------------------->
+        <div class="individual-info">
+            <p class="individual-name">Neo Dladla</p>
+               <div class="skills-hobbies-container">   
+                        <div class="skills">
+                            <p class="skills-hobbies-title">Skills</p>
+                            <ul>
+                                <li>Critical Thinking</li>
+                                <li>Graphic Design</li>
+                                <li>Writing clean JavaScript</li>
+                            </ul>
+                        </div>
+                        <!--------------------------------------------------------------------------------------------------------------->
 
-    <!--------------------------------------------------------------------------------->
+                        <div class="hobbies">
+                             <p class="skills-hobbies-title">hobbies</p>
+                            <ul>
+                                <li>Puzzle solving</li>
+                                <li>Street Photography</li>
+                                <li>Experimental Cooking</li>
+                            </ul>
+                        </div>    
+               </div>        
+              
 
-    <div class="skills"> 
-    </ul>  
-        <li>Critical Thinking</li>
-        <li>Graphic Design</li>
-        <li>Writing clean JavaScript</li>
-       </ul>
-    </div>
+         <!--------------------------------------------------------------------------------------------------------------->
 
-    <!------------------------------------------------------------------------------------------->
-    
-    <div class="hobbies">
-        <ul>
-            <li>Puzzle solving</li>
-            <li>Street Photography</li>
-            <li>Experimental Cooking</li>
-        </ul>
-    </div>
-    <!------------------------------------------------------------------------------------------>
+         <p>Hi, I'm Neo with a curious sharp eye for design and a love for solving puzzles. With a background in a graphic design and a knack for JavaScript, I bring both precision and creativity to every project. When I'm not experimenting in the kitchen or capturing moments, I'm decoding challenges with logic and flair.</p>
+        </div>
+    </section>
 
-    <p>Hi, I'm Neo with a curious sharp eye for design and a love for solving puzzles. With a background in a graphic design and a knack for JavaScript, I bring both precision and creativity to every project. When I'm not experimenting in the kitchen or capturing moments, I'm decoding challenges with logic and flair.</p>
-
-</section>
-<!------------------------------footer is below---------------------------------------------------------------->
+    <!------------------------------footer is below---------------------------------------------------------------->
 <footer>
     <p>&copy; 2025 Markup Crew "Structuring skills, Styling dreams". All rights reserved.</p>
 </footer>
-
 
 </body>
 
